@@ -11,7 +11,7 @@ const sendResetCode = (msg, email)=>{
 
 const options = {
     auth: {
-        api_key: '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'
+        api_key: 'key'
     }
 }
 const transporter = nodemailer.createTransport(sgTransport(options));
